@@ -19,3 +19,7 @@ else
 end
 
 puts grocery_list[1]
+
+grocery_list.sort!
+
+list(grocery_list)
