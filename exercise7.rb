@@ -3,3 +3,11 @@ students = {
   :cohort2 => 42,
   :cohort3 => 22
 }
+
+def roster(students)
+  students.each do |cohort, class_size|
+    puts "#{cohort}: #{class_size} students"
+  end
+end
+
+roster(students)
