@@ -6,8 +6,10 @@ students = {
 
 def roster(students)
   students.each do |cohort, class_size|
-    puts "#{cohort}: #{class_size} students"
+    p "#{cohort}: #{class_size} students"
   end
 end
+
+students[:cohort4] = 43
 
 roster(students)
