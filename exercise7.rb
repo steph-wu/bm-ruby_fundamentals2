@@ -13,3 +13,5 @@ end
 students[:cohort4] = 43
 
 roster(students)
+
+p students.keys
