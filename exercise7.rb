@@ -12,6 +12,10 @@ end
 
 students[:cohort4] = 43
 
-roster(students)
-
 p students.keys
+
+students.each do |cohort, class_size|
+  students[cohort] = (class_size * 1.05).to_i
+end
+
+roster(students)
