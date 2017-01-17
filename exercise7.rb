@@ -18,4 +18,6 @@ students.each do |cohort, class_size|
   students[cohort] = (class_size * 1.05).to_i
 end
 
+students.delete(:cohort2)
+
 roster(students)
