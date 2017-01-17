@@ -9,3 +9,5 @@ end
 grocery_list << "rice"
 
 list(grocery_list)
+
+puts grocery_list.count
